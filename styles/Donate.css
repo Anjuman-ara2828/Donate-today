@@ -1,0 +1,41 @@
+body{
+    padding: 0!important;
+    margin:0!important;
+}
+.header{
+    background-image: url('../images/donation2.jpg');
+    height: 600px;
+    width: 100%;
+    background-repeat: no-repeat;
+  
+  background-size: cover;
+  text-align: center;
+  padding: 20px 16px;
+}
+/* .header h2{
+    margin-top: 20%;
+} */
+/* .title{
+    margin-top: 20%;
+} */
+.title{
+    color: olive;
+    font-size: 65px;
+    font-weight: 700;
+}
+.description{
+    color: olive;
+    font-size: 18px;
+   font-weight: 400;
+}
+.btn-primary{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+  background: #FF5959;
+  border-radius: 5px;
+  
+}
+
+
