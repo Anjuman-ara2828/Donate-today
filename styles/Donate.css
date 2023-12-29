@@ -133,8 +133,48 @@ font-weight: 700;
     
     text-align: center;
     font-size: 18px;
-    font-weight: 400;
-
-    
+    font-weight: 400; 
   }
+  .skill-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .first-box{
+    background-color: rgba(79, 157, 166, 0.10);
+    border-radius: 5px;
+    padding: 20px;
+  }
+  .skill-title{
+    color: #121212;
+    font-size: 24px;
+    font-weight: 600; 
+  }
+  .skill-description{
+    color: #707070;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .second-box{
+    background: rgba(255, 89, 89, 0.10);;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  .third-box{
+    background: #FFF4D6;
+    padding: 20px;
+
+
+    border-radius: 5px;
+  }
+  .skill{
+   width: 300px;
+height: 300px;
+
+  }
+  .m-bottom{
+    margin-bottom: 40px;
+  }
+
 
