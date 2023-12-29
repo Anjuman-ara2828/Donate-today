@@ -1,200 +1,247 @@
-body{
-    padding: 0!important;
-    margin:0!important;
-    font-family: 'Open Sans', sans-serif;
-font-family: 'Poppins', sans-serif;
+body {
+  padding: 0 !important;
+  margin: 0 !important;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
-.header{
-    background-image: url('../images/donation13.jpg');
-    height: 400px;
-    width: 100%;
-    background-repeat: no-repeat;
-  
+
+.header {
+  background-image: url('../images/donation13.jpg');
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+
   background-size: cover;
   text-align: center;
   padding: 20px 0px;
-  
+
 }
-.header h2{
-    margin-bottom: 0;
+
+.header h2 {
+  margin-bottom: 0;
 }
+
 /* .title{
     margin-top: 20%;
 } */
-.title{
-    color: #FFF;
-    font-size: 65px;
-    font-weight: 700;
+.title {
+  color: #FFF;
+  font-size: 65px;
+  font-weight: 700;
 }
-.description{
-    color: #FFF;
-    font-size: 18px;
-   font-weight: 400;
+
+.description {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 400;
 }
-.btn-primary{
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 600;
-    border-radius: 5px;
+
+.btn-primary {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 5px;
   background: #FF5959;
   border: 1px solid #FF5959;
   width: 160px;
   padding: 16px 12px;
 
+
+}
+
+.section-title {
+  text-align: center;
+  margin-top: 100px;
+
+
+}
+
+.sub-title {
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.sub-title-description {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  /* width: 700px;
+    height: 60px; */
+
+}
+
+.card {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card-body {
+  border: 5px;
+  background: #FAFAFA;
+  font-size: 30px;
+  font-weight: 700;
+
+  width: 135px;
+  height: 123px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card-body-active {
+  border-radius: 5px;
+  border: 2px solid #FF5959;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #FEE;
+  color: #FF5959;
+  font-size: 30px;
+  font-weight: 700;
+
+
+  width: 135px;
+  height: 123px;
+}
+
+.other {
+  text-align: center;
+
+  color: #B3B3B3;
+  font-size: 18px;
+  font-weight: 400;
+
+}
+
+.btn-secondary {
+  display: flex;
+  justify-content: center;
+  width: 160px;
+  padding: 16px 12px;
+  gap: 5px;
+  background-color: #FF5959;
+  border: 1px solid #FF5959;
+
+  font-weight: 600;
+  font-size: 20px;
+  /* justify-content: center;
+    align-items: center; */
+  color: #FFF;
+  margin: 0 auto;
+}
+
+.body {
+  text-align: center;
+  color: #121212;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.sub-body {
+  color: #707070;
+  ;
+
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.skill-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.first-box {
+  background-color: rgba(79, 157, 166, 0.10);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.skill-title {
+  color: #121212;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.skill-description {
+  color: #707070;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.second-box {
+  background: rgba(255, 89, 89, 0.10);
+  ;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.third-box {
+  background: #FFF4D6;
+  padding: 20px;
+
+
+  border-radius: 5px;
+}
+
+.skill {
+  width: 300px;
+  height: 300px;
+
+}
+
+.m-bottom {
+  margin-bottom: 40px;
+}
+
+.title-again {
+  color: #121212;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.description-again {
+  color: #707070;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.btn-again {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #FF5959;
+  border: 1px solid #FF5959;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-btn {
+  
   
 }
-  .section-title{
-    text-align: center;
-    margin-top: 100px;
-    
 
-  }
-  .sub-title{
-    color:  #181818;
-    font-size: 35px;
-    font-weight: 700;
-  }
-  .sub-title-description{
-    color: #757575;
-    font-size: 18px;
-    font-weight: 400;
-    /* width: 700px;
-    height: 60px; */
-    
-  }
-  .card{
+/* .image{
     display: flex;
-    gap: 20px;
-    justify-content: center;
-  }
-  .card-body{
-    border: 5px;
-    background: #FAFAFA;
-    font-size: 30px;
-    font-weight: 700;
-    
-    width: 135px;
-    height: 123px;
-    text-align: center;
-    display: flex;
-    justify-content :center;
-    align-items: center;
+  } */
+.survive {
+  color: #121212;
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+}
 
-  }
-  .card-body-active{
-    border-radius: 5px;
-border: 2px solid #FF5959;
-text-align: center;
-    display: flex;
-    justify-content :center;
-    align-items: center;
-
-background: #FEE;
-color: #FF5959;
-font-size: 30px;
-font-weight: 700;
-
-    
-    width: 135px;
-    height: 123px;
-  }
-  .other{
-    text-align: center;
-  
-    color: #B3B3B3;
-    font-size: 18px;
-    font-weight: 400;
-
-  }
-  .btn-secondary{
-    display: flex;
-    justify-content: center;
-    width: 160px;
-    padding: 16px 12px;
-    gap: 5px;
-    background-color: #FF5959;
-    border: 1px solid #FF5959;
-    
-    font-weight: 600;
-    font-size: 20px;
-    /* justify-content: center;
-    align-items: center; */
-    color: #FFF;
-    margin: 0 auto;
-  }
-  .body{
-    text-align: center;
-    color: #121212;
-    font-size: 30px;
-    font-weight: 700;
-  }
-  .sub-body{
-    color: #707070;;
-    
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400; 
-  }
-  .skill-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-  }
-  .first-box{
-    background-color: rgba(79, 157, 166, 0.10);
-    border-radius: 5px;
-    padding: 20px;
-  }
-  .skill-title{
-    color: #121212;
-    font-size: 24px;
-    font-weight: 600; 
-  }
-  .skill-description{
-    color: #707070;
-    font-size: 16px;
-    font-weight: 400;
-  }
-  .second-box{
-    background: rgba(255, 89, 89, 0.10);;
-    border-radius: 5px;
-    padding: 20px;
-  }
-  .third-box{
-    background: #FFF4D6;
-    padding: 20px;
-
-
-    border-radius: 5px;
-  }
-  .skill{
-   width: 300px;
-height: 300px;
-
-  }
-  .m-bottom{
-    margin-bottom: 40px;
-  }
-  .title-again{
-    color: #121212;
-    font-size: 45px;
-    font-weight: 700;
-  }
-  .description-again{
-    color: #707070;
-    font-size: 18px;
-    font-weight: 400;
-  }
-  .btn-again{
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 600;
-    background-color: #FF5959;
-    border: 1px solid  #FF5959;
-
-
-    ;
-  }
-
-
+.survive-description {
+  color: #707070;
+  font-size: 18px;
+  font-weight: 400;
+}
