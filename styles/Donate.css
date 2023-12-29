@@ -122,4 +122,19 @@ font-weight: 700;
     color: #FFF;
     margin: 0 auto;
   }
+  .body{
+    text-align: center;
+    color: #121212;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .sub-body{
+    color: #707070;;
+    
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+
+    
+  }
 
